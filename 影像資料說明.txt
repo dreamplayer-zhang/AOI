@@ -1,0 +1,14 @@
+影像資料，包含 6 個類別（正常類別 + 5 種瑕疵類別）。
+
+下載資料 zip 檔案包含：
+
+train_images.zip：訓練所需的影像資料（JPEG格式），共計 5,056 張。
+train.csv：包含 2 個欄位，ID 和 Label。
+ID：影像的檔名。
+Label：瑕疵分類類別（0 表示 normal，1 表示 void，2 表示 horizontal defect，3 表示 vertical defect，4 表示 edge defect，5 表示 particle）。
+test_images.zip：測試所需的影像資料（JPEG格式），共計 19,278 張。
+test.csv：包含 1 個欄位，ID 。
+ID：影像的檔名。
+upload_sample.csv:上傳範例。包含 2 個欄位，ID 和 Label。
+ID：影像的檔名。
+Label：瑕疵分類類別（其值只能是下列其中之一：0、1、2、3、4、5）。
